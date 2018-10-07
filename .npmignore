@@ -4,5 +4,6 @@ yarn-error.log
 /src
 __tests__
 *.test.*
+/.circleci
 /coverage
 /yarn.lock
