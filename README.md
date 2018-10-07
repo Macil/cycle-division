@@ -11,8 +11,8 @@ and the implementation at http://codepad.org/hKboFPd2.
 
 ## Usage
 
-```
-import {divide} from 'cycle-division';
+```js
+import { divide } from 'cycle-division';
 const q = divide(438, 35);
 
 console.log(q.toString());
@@ -31,7 +31,9 @@ The examples here use the import statement, which is supported by TypeScript
 and Babel. If you're using Node.js or a bundler that only supports CommonJS
 modules, then you can replace the import statements with `require` calls:
 
-    const {divide} = require('cycle-division');
+```js
+const { divide } = require('cycle-division');
+```
 
 ## API
 
