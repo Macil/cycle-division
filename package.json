@@ -1,0 +1,46 @@
+{
+  "name": "cycle-division",
+  "version": "1.0.0",
+  "description": "Division with repeating decimal detection",
+  "main": "dist/src/index.js",
+  "repository": "https://github.com/Macil/cycle-division",
+  "author": "Chris Cowan <agentme49@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "prepare": "rimraf dist && tsc",
+    "watch": "tsc -w",
+    "test": "yarn lint && jest",
+    "watch-test": "jest --watchAll",
+    "prettier-all": "prettier --write '**/*.{ts,json}'",
+    "lint": "prettier-check '**/*.{ts,json}'"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/dist/",
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.3",
+    "babel-core": "^6.26.3",
+    "husky": "^1.1.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "prettier-check": "^2.0.0",
+    "pretty-quick": "^1.7.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.1"
+  }
+}
