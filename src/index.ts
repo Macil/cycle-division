@@ -1,4 +1,8 @@
-export function divide(dividend: number, divisor: number, base: number = 10) {
+export function divide(
+  dividend: number,
+  divisor: number,
+  base: number = 10
+): Quotient {
   if (divisor === 0) throw new RangeError('Divisor can not be zero');
   const positive = dividend >= 0 === divisor >= 0;
   dividend = Math.abs(dividend);
