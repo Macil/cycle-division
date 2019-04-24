@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.0",
     "babel-core": "^6.26.3",
-    "husky": "^1.1.1",
+    "husky": "^2.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.14.3",
     "prettier-check": "^2.0.0",
