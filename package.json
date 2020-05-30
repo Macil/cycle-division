@@ -40,7 +40,7 @@
     "prettier-check": "^2.0.0",
     "pretty-quick": "^2.0.0",
     "rimraf": "^3.0.0",
-    "ts-jest": "^25.1.0",
+    "ts-jest": "^26.1.0",
     "typescript": "^3.1.1"
   }
 }
